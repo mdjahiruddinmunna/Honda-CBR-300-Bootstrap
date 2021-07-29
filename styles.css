@@ -119,6 +119,10 @@ header .hero__title{
     background-position: bottom;
     height: 100%;
 }
+form#login-form {
+    background: #3095ff;
+  }
+  
 
 /* ========================== 
     End Header Section
@@ -187,10 +191,6 @@ header .hero__title{
     End Frequently asked question Client Section
 ============================ */
 
-.sport__bike__section{
-    
-    background: linear-gradient(to right, #FDF6F0, #F9F9F9); 
-}
 
 
 /* ========================== 
