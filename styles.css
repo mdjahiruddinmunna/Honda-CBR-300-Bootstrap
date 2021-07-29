@@ -1,0 +1,230 @@
+/* ========================== 
+        Google fonts 
+============================ */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+
+/* ========================== 
+    variables
+============================ */
+
+
+
+:root{
+
+    /* ---fonts variable---- */
+    --mainFont :'Montserrat', sans-serif;
+    --fontBold:700;
+    --fontSemi:600;
+    --fontMedium:500;
+    --fontRegular:300;
+    --fontLight:200;
+    
+
+    /* ---color variable---- */
+    --headerBgColor:#264653;
+    --headerTextColor:#fff;
+    --mainColor:#E76F51;
+    --secondaryColor:#0D0925;
+
+
+
+    
+}
+
+
+
+/* ========================== 
+     Global CSS
+============================ */
+
+a,
+a:hover{
+     text-decoration: none;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+img{
+     max-width: 100%;
+}
+
+
+
+body{
+    font-family:var(--mainFont) !important;
+}
+
+
+
+
+/* ========================== 
+     Reusable style css
+============================ */
+
+.color{
+    color: var(--mainColor);
+}
+
+.text-color{
+    color:#0D0925
+}
+
+
+
+.img-filter{
+   filter: grayscale(100%); 
+}
+
+.btn-color{
+    background: var(--mainColor);
+}
+
+
+
+/* ========================== 
+    Start Header Section
+============================ */
+
+header{
+    background:var(--headerBgColor);
+}
+
+header .hero__subtitle{
+    font-size: .87rem;
+    color: #E0E0E0;
+}
+
+header .hero__title{
+    font-weight: var(--fontBold);
+    font-size: 3rem;
+    color: #E0E0E0;
+}
+/* sport special bike section */
+.sport__bike__section{
+    background-image: url(./images/background.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: bottom;
+    height: 100%;
+}
+
+/* ========================== 
+    End Header Section
+============================ */
+
+
+
+
+/* ========================== 
+   Start Feature Section
+============================ */
+
+.feature__section .feature__subtitle{
+    color: var(--mainColor);
+    font-weight: var(--fontSemi);
+}
+
+
+/* ========================== 
+    End Feature Section
+============================ */
+
+
+
+/* ========================== 
+    Start Client Section
+============================ */
+.client__section .client__img img{
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.round-custom{
+    border-radius: 5px;
+}
+
+.client__name{
+    color:#23A6F0;
+}
+.client__section .icon i{
+    color: var(--mainColor);
+}
+
+/* ========================== 
+    End Client Section
+============================ */
+
+
+
+
+/* ========================== 
+  Start Frequently asked question  section 
+============================ */
+
+.frequently__asked__section .img__content img {
+	max-width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* ========================== 
+    End Frequently asked question Client Section
+============================ */
+
+.sport__bike__section{
+    
+    background: linear-gradient(to right, #FDF6F0, #F9F9F9); 
+}
+
+
+/* ========================== 
+    Start latest news  Section
+============================ */
+
+.latest__information__section{
+    background-color: #DBE6FD;
+}
+
+/* footer */
+
+  .nav-text > a {
+    color: #ffffff !important;
+    font-weight: 400;
+  }
+/* ========================== 
+    End latest news  Section
+============================ */
+
+
+
+/* ========================== 
+ Responsive  Media Queries
+============================ */
+
+
+@media only screen and (max-width: 480px) {
+    header .hero__title{
+      
+        font-size: 2rem;
+      
+    }
+}
+
+
+  
