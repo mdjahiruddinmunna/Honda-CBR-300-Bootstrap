@@ -128,7 +128,7 @@ form#login-form {
     End Header Section
 ============================ */
 /* ========================== 
-    Modal
+    intro section
 ============================ */
 
 .bike_animation {
@@ -146,6 +146,12 @@ form#login-form {
       transform: translate(0px, 0px) scale(1);
     }
   }
+.intro-svg{
+    background-image: url(./svg-icon/intro-bike.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
   
 
 /* ========================== 
