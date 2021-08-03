@@ -90,6 +90,9 @@ body{
 .btn-color{
     background: var(--mainColor);
 }
+.btn-color:hover{
+    background: #e44b25;
+}
 
 
 
@@ -191,6 +194,7 @@ form#login-form {
 .client__section .icon i{
     color: var(--mainColor);
 }
+
 
 /* ========================== 
     End Client Section
